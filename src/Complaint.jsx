@@ -631,7 +631,7 @@ Complaint to Shekhar Rai`;
           <img
             src="/shekhar-rai.jpeg"
             alt="Shekhar Rai"
-            style={{ objectPosition: "center 20%" }}
+            style={{ objectPosition: "center 8%" }}
             className="w-28 h-28 mx-auto rounded-full object-cover border-4 border-white shadow-xl mb-4 "
           />
           {language === "en" ? (
