@@ -631,7 +631,8 @@ Complaint to Shekhar Rai`;
           <img
             src="/shekhar-rai.jpeg"
             alt="Shekhar Rai"
-            className="w-28 h-28 mx-auto rounded-full object-cover border-4 border-white shadow-xl mb-4"
+            style={{ objectPosition: "center 20%" }}
+            className="w-28 h-28 mx-auto rounded-full object-cover border-4 border-white shadow-xl mb-4 "
           />
           {language === "en" ? (
             <h1 className="text-2xl font-bold text-white mb-1">Shekhar Rai</h1>
@@ -652,7 +653,8 @@ Complaint to Shekhar Rai`;
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <img
-                src="/shekhar-rai.jpeg"
+                src="/shekhar-rai123.jpeg"
+                // style={{ objectPosition: "top" }}
                 alt="Shekhar Rai"
                 className="w-12 h-12 rounded-full object-cover border-2 border-orange-500"
               />
@@ -779,6 +781,7 @@ Complaint to Shekhar Rai`;
               <img
                 src={imagePreview}
                 alt="Preview"
+                style={{ objectPosition: "top" }}
                 className="w-full h-48 object-cover rounded-lg"
               />
               <button
